@@ -1,0 +1,58 @@
+.head-container{
+    text-decoration: none;
+
+
+}
+.main-container{
+    margin: 1em auto;
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+    padding:3%;  
+    background-color: white;
+    box-shadow: 1px 5px 1px rgba(114, 114, 114, 0.603);
+}
+.person-name{
+ font-size: 30px;
+ font-weight: bold;
+}
+
+.planet-name{
+font-size: 20px;
+}
+
+.human-text{
+    background-color: rgb(228, 228, 228);
+    text-decoration:none !important;
+    border: 1px solid black;
+    color:#000000;
+    width: 30%;
+    border-radius: 50px;
+    /* border-top-left-radius: 50px ;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px; */
+    margin:auto 0;
+    padding: 2%;
+    text-align: center;
+    
+}
+.human-text p{
+    margin:0 auto ;
+}
+
+@media screen and (max-width:600px) {
+    .main-container{
+        margin: 1em auto;
+        border: 1px solid black;
+        width: 90%;
+        display: flex;
+        color: black;
+        justify-content: space-between;
+        padding:3%;  
+        background-color: white;
+        box-shadow: 1px 5px 1px rgba(114, 114, 114, 0.603);
+    }
+}
